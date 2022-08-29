@@ -1,4 +1,4 @@
-sudo tee $HOME/.relayer/chains/gaia.json > /dev/null <<EOF
+
 {
   "type": "cosmos",
   "value": {
@@ -16,4 +16,4 @@ sudo tee $HOME/.relayer/chains/gaia.json > /dev/null <<EOF
     "sign-mode": "direct"
   }
 }
-EOF
+
